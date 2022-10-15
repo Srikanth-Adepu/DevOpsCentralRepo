@@ -10,6 +10,7 @@ pipeline{
 	    
                steps{
 		 echo 'cloning..'
+		 git 'https://github.com/Srikanth-Adepu/DevOpsCentralRepo.git'
               }
           }
           stage('Compile'){
